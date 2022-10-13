@@ -1,3 +1,5 @@
+package pwo;
+
 public class Zadanie1 {
 
 public static final int FROM=0, TO=100;
