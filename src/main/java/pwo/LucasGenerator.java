@@ -1,13 +1,15 @@
+package pwo;
+
 import java.math.BigDecimal;
 
-public class FibonacciGenerator {
+public class LucasGenerator {
 
 private int lastIndex = 0;
 private BigDecimal current = new BigDecimal(0);
 
 private BigDecimal
-f_1 = new BigDecimal(1),
-f_2 = new BigDecimal(0);
+f_1 = new BigDecimal(2),
+f_2 = new BigDecimal(1);
 
 public void reset() {
 lastIndex = 0;
